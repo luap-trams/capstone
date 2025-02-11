@@ -1,0 +1,66 @@
+#main-body {
+    background-color: rgb(96, 130, 193);
+    /* margin-top:15%; */
+    height: 100%;
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#dark {
+ background-color: rgb(41, 40, 40);
+ color: white;
+ width: 50px; padding: 4px;
+ text-align: center;
+}
+
+#white {
+
+    background-color: rgb(169, 164, 164);
+    color: black;
+    width: 50px;
+    padding: 4px;
+    text-align: center;
+   
+
+}
+
+
+
+.sty-flex {
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 100%;
+
+
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-sec{
+    height: 50%;
+padding:100px;
+width: 50%;
+margin: auto;
+}
+
+input {
+    display: flex;
+    width: 100px;
+}
+
+
+button {
+    width: auto;
+}
+h2 {
+    font-size: 16px;
+}
+
+.div-flex {
+    display: flex;
+    flex-direction: row;
+}

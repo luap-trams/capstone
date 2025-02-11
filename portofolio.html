@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+    
+    
+<body id="main-body">
+
+
+<section id="main-sec">
+
+<h1>Stocks Portfolio</h1>
+<p>Choose your theme</p>
+<div class="sty-flex">
+
+    <!-- <button onclick="themeToggle()" >Toggle</button> -->
+<p id="dark" onclick="darkTheme()">Dark</p>
+<p id="white" onclick="lightTheme()">White</p>
+
+</div>
+
+<div class="info">
+
+    
+    
+</div>
+
+<div class="div-flex">
+    <input type="text" name="stock" id="stock" placeholder="Stock Name"><br>
+    <input type="text" name="qty" id="qty" placeholder="Qty">
+<input type="text" name="buy" id="buy" placeholder="Buy Price">
+<input type="text" name="sell" id="sell" placeholder="Sale Price">
+</div>
+
+
+    <div id="tBuy"></div><br>
+    <button onclick="totalBuy()">Total Buy</button>
+
+
+
+<div id="tCommsBuy"></div>
+<button onclick="commissionBuy()">Buy Commission</button>
+
+
+
+
+<div id="tSell"></div>
+<div id="tCommsSell"></div>
+<button onclick="commissionSell()">Sell Commission</button>
+<button onclick="totalSell()">Total Sell</button><br>
+
+
+
+
+
+<button onclick="totalComms()">Total Commission</button>
+<button onclick="gainedReturns()">ROI in USD</button>
+<button onclick="roiNaira()">ROI in Naira</button>
+
+<div id="comms"></div>
+<div id="overall"></div>
+<div id="profit"></div>
+<div id="profit-naira"></div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/portfolio.js"></script>
+<!-- <script src="./display.js"></script> -->
+</body>
+</html>

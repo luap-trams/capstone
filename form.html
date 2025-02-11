@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+    
+    
+<body id="main-body">
+    <h1>Form Validation</h1>
+
+    <div>
+        <img class="mee" src="/mee.JPG" alt="my photo" width="200">
+    </div>
+
+    <form action="https://formsubmit.co/3084d15bc47759fb2b4ce5bf4dfd3a91" method="post" id="form" name="vForm" onsubmit="return validation()">
+
+    <label for="text" name="fullNames" id="names">Full Name</label><br>
+    <input type="text" name="fullNames" id="names"><br>
+
+    <label for="email" name="email" id="mail">e-Mail</label><br>
+    <input type="email" name="email" id="mail"><br>
+
+    <label for="phone" name="phoneNum" id="mobile">Phone number</label><br>
+    <input type="phone" name="phoneNum" id="mobile"><br>
+
+    <label for="password" name="password" id="pass">Password</label><br>
+    <input type="password" name="password" id="pass"> <br>
+
+    <button type="submit" id="s-butt" >submit</button> 
+
+</form>
+
+<form action="" type="name" id="chichi" >
+<h2 >Paul's birthday</h2>
+<h2>Chisom's birthday</h2>
+<h2 onclick="this.innerHTML = Date();">What's today's date</h2>
+
+
+<!-- <h2>Select your birthday</h2> -->
+    
+<input name="result" id="result" type="text">
+    <!-- <p class="result" ></p> -->
+</form>
+
+<p id="nd"><p/>
+    <div class="organize">
+        <button id="toggle" onclick="open_Close()" >Toggle</button>
+        <button id="open" onclick="oPen()" >Show</button>
+        <button id="close" onclick="cLose()">Hide</button>
+<button  type="submit" onmouseover=" dDate()">Green </button>
+<button  type="submit" onclick=" blue()">Blue Time </button>
+<button  type="submit" onclick=" red()">Red Time </button>
+<button  type="submit" onclick=" orange()">Orange Time </button>
+    </div>
+
+<p class="hove">Hover on JS</p>
+
+
+<p id='newname' onclick="return dN()">New name</p>
+<p class="nameDisplay"></p>
+
+<hr>
+
+
+    <div id = "image">
+		Hover over an image below to display here.
+
+        <img class = "preview" alt = "Styling with a Bandana" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" alt = "With My Boy" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt = "Young Puppy" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+
+
+	</div>
+	
+	<img class = "preview" alt = "Styling with a Bandana" src = "./BrandNew4BedroomTerrace1.jpeg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" alt = "With My Boy" src = "./BrandNew4BedroomTerrace2.jpeg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	
+	<img class = "preview" src = "./BrandNew4BedroomTerrace3.jpeg" alt = "Young Puppy" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<img class = "preview" src = "./BrandNew4BedroomTerraceDuplex.jpeg" alt = "Young Puppy" onmouseover = "upDate(this)" onmouseout = "unDo()">
+
+<hr>
+
+
+<button type="submit" onclick="newNames()">Add your name</button>
+
+<p id="student"></p>
+
+<h2>Select your theme</h2>
+<div id="sty">
+
+    <!-- <button onclick="themeToggle()" >Toggle</button> -->
+<div id="dark" onclick="darkTheme()">Dark Theme</div>
+<div id="white" onclick="lightTheme()">White Theme</div>
+
+</div>
+    
+
+
+
+
+<!-- <label for="stock">Stock</label> -->
+<!-- <input type="text" name="stock" id="stock"><br> -->
+
+<label for="qty">Qty</label><br>
+<input type="text" name="qty" id="qty"><br>
+
+<label for="buy">Price/Share</label><br>
+<input type="text" name="buy" id="buy">
+<div id="tBuy"></div>
+<div id="tCommsBuy"></div>
+<button onclick="commissionBuy()">Buy Commission</button>
+<button onclick="totalBuy()">Total Buy</button><br><br>
+<!-- <p id="buyBtn"></p> -->
+
+
+<label for="sell">Sell Price</label>
+<div id="tSell"></div>
+<div id="tCommsSell"></div>
+<input type="text" name="sell" id="sell"><br>
+<button onclick="commissionSell()">Sell Commission</button>
+<button onclick="totalSell()">Total Sell</button><br>
+
+
+
+
+
+<button onclick="totalComms()">Total Commission</button>
+<button onclick="gainedReturns()">ROI in USD</button>
+<button onclick="roiNaira()">ROI in Naira</button>
+
+<div id="comms"></div>
+<div id="overall"></div>
+<div id="profit"></div>
+<div id="profit-naira"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/validation.js"></script>
+<!-- <script src="./display.js"></script> -->
+</body>
+</html>
